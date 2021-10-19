@@ -1,0 +1,45 @@
+.collection-card__container {
+  position: relative;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: rgb(230, 230, 230) solid 1px;
+  color: rgb(110, 108, 105);
+  cursor: pointer;
+  margin: 15px;
+  padding-bottom: 20px;
+}
+
+.collection-card__icon {
+  position: absolute;
+  top: 10px;
+  left: 240px;
+  cursor: pointer;
+}
+
+.collection-card__title-contaier {
+  width: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0px 25px;
+}
+
+.collection-card__image {
+  width: 200px;
+  height: 200px;
+  border: rgba(202, 201, 190, 0.774) 2px solid;
+  object-fit: contain;
+  margin: 10px;
+  background: white;
+}
+
+.collection-card__price {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.62;
+  color: #000;
+}

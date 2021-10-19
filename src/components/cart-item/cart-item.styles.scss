@@ -1,0 +1,30 @@
+.cart-item__container {
+  display: flex;
+  color: rgb(110, 108, 105);
+  margin-bottom: 5px;
+}
+
+.cart-item__-image-container {
+  width: 30%;
+}
+
+.cart-item__image {
+  width: 100%;
+}
+
+.cart-item__details-container {
+  width: 50%;
+}
+
+.cart-item__price-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cart-item__icon-container {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}

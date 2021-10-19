@@ -1,0 +1,29 @@
+.search-filter__container {
+  display: flex;
+  position: relative;
+}
+
+.search-filter__input {
+  height: 25px;
+  border-radius: 4px;
+  border-color: hsl(0, 0%, 80%);
+  border-style: solid;
+  border-width: 1px;
+  min-height: 34px;
+  margin: 10px;
+
+  padding: 2px 0px 2px 35px;
+}
+
+.search-filter__icon {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+
+.search-filter__clear {
+  position: absolute;
+  top: 21px;
+  left: 190px;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.pagination__container {
+  display: flex;
+  align-items: center;
+}
+
+.pagination__button {
+  min-width: 120px;
+  line-height: 44px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 0 16px;
+  cursor: pointer;
+  font-family: "Source Sans Pro", arial, helvetica, sans-serif;
+  margin: 10px 10px;
+
+  &:hover {
+    background-color: #e6e6e6;
+  }
+
+  @media screen and (max-width: 800px) {
+    min-width: 50px;
+  }
+}
+
+.pagination__selector {
+  min-width: 150px;
+  text-align: center;
+
+  @media screen and (max-width: 800px) {
+    min-width: 140px;
+  }
+}

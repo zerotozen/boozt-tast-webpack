@@ -1,0 +1,26 @@
+.footer__container {
+  height: 80px;
+  padding: 16px 0;
+  background-color: #000;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.footer__list-container {
+  max-width: 560px;
+  margin: auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.footer__list-element {
+  border-right: 1px white solid;
+  width: 100%;
+}
+
+.footer__label {
+  margin-top: 25px;
+}
