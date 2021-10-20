@@ -16,7 +16,9 @@ function CartDropdown({ cartItems, history, toggleCartHidden }) {
             <CartItem key={cartItem.id} item={cartItem} />
           ))
         ) : (
-          <span className="cart-dropdown__empty-message">Yor cart is empty</span>
+          <span className="cart-dropdown__empty-message">
+            Yor cart is empty
+          </span>
         )}
       </div>
       <CustomButton
